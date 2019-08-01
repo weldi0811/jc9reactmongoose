@@ -2,6 +2,6 @@ import axios from 'axios'
 
 export default axios.create(
     {
-        baseURL : 'http://localhost:2019'
+        baseURL : 'https://weldi9mongoose.herokuapp.com'
     }
 )
