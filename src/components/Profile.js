@@ -46,7 +46,7 @@ class Profile extends Component {
                     <Jumbotron >
                         {/* cara senior developer */}
                         {/* <img src={this.state.avatar} alt="Please choose your avatar" key={new Date()} /> */}
-                        <img src={'http://localhost:2019/users/' + this.props.user.id + `/avatar`} alt="Please choose your avatar" key={new Date()} />
+                        <img src={'https://weldi9reactmongoose.herokuapp.com/users/' + this.props.user.id + `/avatar`} alt="Please choose your avatar" key={new Date()} />
                         <h1 className="display-3">Hello, {this.state.data.name}!</h1>
                         
                         
